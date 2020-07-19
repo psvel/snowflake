@@ -1,0 +1,466 @@
+    1  ls -ltr
+    2  sudo apt-get snowsql
+    3  sudo apt-getinstall snowsql
+    4  sudo apt-get install snowsql
+    5  sudo curl -O https://sfc-repo.snowflakecomputing.com/snowsql/bootstrap/1.2/linux_x86_64/snowsql-1.2.3-linux_x86_64.bash
+    6  ls -ltr
+    7  sudo snowsql-1.2.3-linux_x86_64.bash
+    8  sudo ./snowsql-1.2.3-linux_x86_64.bash
+    9  pwd
+   10  ls
+   11  sudo bash ./snowsql-1.2.3-linux_x86_64.bash
+   12  ls
+   13  snowsql
+   14  sudo bash ./snowsql-1.2.3-linux_x86_64.bash
+   15  ls -ltr
+   16  cd bin
+   17  ls
+   18  cd snosql
+   19  ls -ltr
+   20  ./snowsql
+   21  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com
+   22  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com -o log_level=DEBUG
+   23  ls -ltr
+   24  sudo curl https://sfc-repo.snowflakecomputing.com/snowcd/linux/1.0.2/snowcd-1.0.2-linux_x86_64.gz
+   25  sudo curl -O https://sfc-repo.snowflakecomputing.com/snowcd/linux/1.0.2/snowcd-1.0.2-linux_x86_64.gz
+   26  ls -ltr
+   27  gunzip snowcd-1.0.2-linux_x86_64.gz
+   28  ls -ltr
+   29  cd snowcd-1.0.2-linux_x86_64
+   30  ls -ltr
+   31  ./snowcd-1.0.2-linux_x86_64
+   32  bash ./snowcd-1.0.2-linux_x86_64
+   33  pwd
+   34  ls -ltr
+   35  ./snowcd-1.0.2-linux_x86_64
+   36  bash ./snowcd-1.0.2-linux_x86_64
+   37  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com -o log_level=DEBUG -u psvel
+   38  pwd
+   39  cd bin
+   40  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com -o log_level=DEBUG -u psvel
+   41  ls -ltr
+   42  cd -
+   43  cd "-"
+   44  cd "~"
+   45  ls
+   46  ls -ltr
+   47  cd ..
+   48  rm -r "~"
+   49  ls -ltr
+   50  chmod 755 snowcd-1.0.2-linux_x86_64
+   51  ls
+   52  ls -l
+   53  mv snowcd-1.0.2-linux_x86_64 snowcd
+   54  ./snowcd
+   55  vi whitelist.json
+   56  ./snowcd whitelist.json
+   57  ls -ltr
+   58  cd bin
+   59  ls -ltr
+   60  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com -o log_level=DEBUG -u psvel
+   61  ./snowsql
+   62  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com -o log_level=DEBUG -u psvel -d SNOWFLAKE_SAMPLE_DATA -s tpcds_sf100tcl -w COMPUTE_WH
+   63  ls -ltr
+   64  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-1 -o log_level=DEBUG -u psvel -d SNOWFLAKE_SAMPLE_DATA -s tpcds_sf100tcl -w COMPUTE_WH
+   65  pwd
+   66  ls -ltr
+   67  cp snowconn.py cre_db.py
+   68  vi cre_db.py
+   69  vi snowflake_python.txt
+   70  pwd
+   71  ls -ltr
+   72  sudo pip install dbt
+   73  pwd
+   74  ls -ltr
+   75  cd dbtp1
+   76  ls
+   77  vi dbt_project.yml
+   78  ls -ltr
+   79  vi profiles.yml
+   80  exit
+   81  sudo pip install --upgrade setuptools
+   82  sudo pip install dbt
+   83  sudo apt install python3-pip
+   84  pip -h
+   85  pip install virtualenv
+   86  virtualenv vel27
+   87  pwd
+   88  ls
+   89  cd vel27
+   90  ls
+   91  cd bin
+   92  ls
+   93  ls -ltr
+   94  cd
+   95  pwd
+   96  python3
+   97  sudo pip install dbt
+   98  pip3 install --upgrade setuptools
+   99  sudo pip install dbt
+  100  pip install --upgrade setuptools
+  101  sudo pip install --upgrade setuptools
+  102  sudo pip install dbt
+  103  sudo 
+  104  sudo pip install --upgrade setuptools
+  105  sudo python -m pip install --upgrade setuptools
+  106  sudo python -m pip install --upgrade setuptools40.0.0
+  107  sudo python -m pip install --upgrade setuptoolsv41.0.0
+  108  sudo pip3 install dbt
+  109  dbt init myproj
+  110  dbt init [myproj]
+  111  which dbt
+  112  dbt
+  113  pwd
+  114  python
+  115  pwd
+  116  dbt
+  117  which dbt
+  118  ls -l /usr/local/bin/dbt
+  119  cat /usr/local/bin/dbt
+  120  sudo pip install --upgrade jsonschem
+  121  sudo pip3 install --upgrade jsonschem
+  122  sudo pip3 install jsonschem
+  123  sudo pip3 install jsonschema
+  124  sudo pip3 install --upgrade jsonschema
+  125  pwd
+  126  dbt
+  127  dbt init dbtp1
+  128  pwd
+  129  ls -ltr
+  130  cd dbtp1
+  131  ls -ltr
+  132  history
+  133  pwd
+  134  ls -ltr
+  135  cp -p dbt_project.yml dbt_project.yml.ori
+  136  vi dbt_project.yml
+  137  pwd
+  138  ls -ltr
+  139  cd dbtp1
+  140  ls
+  141  ls -ltr
+  142  vi profiles.yml
+  143  ls -ltr
+  144  vi profiles.yml
+  145  dbt debug --config-dir
+  146  dbt debug
+  147  pwd
+  148  cd ..
+  149  cd .dbt
+  150  ls
+  151  vi profiles.yml
+  152  cp -p profiles.yml profiles.yml.ori
+  153  pwd
+  154  ls -ltr
+  155  cd ..
+  156  pwd
+  157  ls
+  158  cd dbtpl
+  159  pwd
+  160  ls
+  161  cd dbtpl
+  162  ls -ltr
+  163  cd dbtpl
+  164  cd dbtp1
+  165  ls
+  166  cp profiles.yml ../.dbt/
+  167  pwd
+  168  cd ..
+  169  dbt debug
+  170  pwd
+  171  cd .dbt
+  172  ls
+  173  ls -ltr
+  174  vi profiles.yml
+  175  vi profiles.yml.ori
+  176  dbt debug
+  177  vi profiles.yml.ori
+  178  vi profiles.yml
+  179  dbt debug
+  180  vi profiles.yml
+  181  vi profiles.yml.ori
+  182  vi profiles.yml
+  183  dbt debug
+  184  vi profiles.yml
+  185  dbt debug
+  186  vi profiles.yml
+  187  dbt debug
+  188  vi profiles.yml
+  189  dbt debug
+  190  vi profiles.yml
+  191  dbt debug
+  192  vi profiles.yml
+  193  dbt debug
+  194  ls -ltr
+  195  vi snowconn.py
+  196  python3 snowconn.py
+  197  vi snowflake_python.txt
+  198  pwd
+  199  ls -ltr
+  200  vi emp3.csv
+  201  vi snowflake_python.txt
+  202  ls -ltr
+  203  cp -p snowconn.py insdata.py
+  204  vi inddata.py
+  205  vi insdata.py
+  206  vi snowflake_python.txt
+  207  pwd
+  208  ls -ltr
+  209  vi readf.py
+  210  python3 readf.py emp3.csv
+  211  vi readf.py
+  212  python3 readf.py emp3.csv
+  213  vi readf.py
+  214  ls -ltr
+  215  cp -p insdata.py insdata0.py
+  216  vi insdata.py
+  217  ls -ltr
+  218  vi insdata.py
+  219  python3 insdata.py
+  220  python3 insdata.py emp3.csv
+  221  vi insdata.py
+  222  python3 insdata.py emp3.csv
+  223  vi insdata.py
+  224  pwd
+  225  ls -ltr
+  226  vi insdata.py
+  227  python3 insdata.py emp3.csv
+  228  vi insdata.py
+  229  python3 insdata.py emp3.csv
+  230  vi insdata.py
+  231  python3 insdata.py emp3.csv
+  232  vi insdata.py
+  233  python3 insdata.py emp3.csv
+  234  vi insdata.py
+  235  python3 insdata.py emp3.csv
+  236  vi insdata.py
+  237  python3 insdata.py emp3.csv
+  238  pwd
+  239  ls -ltr
+  240  cat emp3.csv | head 10 
+  241  head 10 emp3.csv
+  242  head 10 emp3.csv > emp32.csv
+  243  head 10 emp3.csv
+  244  head emp3.csv
+  245  head emp3.csv > emp32.csv
+  246  vi emp32.csv
+  247  python3 insdata.py emp32.csv
+  248  vi emp32.csv
+  249  vi insdata.py
+  250  python3 insdata.py emp32.csv
+  251  vi insdata.py
+  252  python3 insdata.py emp32.csv
+  253  vi insdata.py
+  254  python3 insdata.py emp32.csv
+  255  pwd
+  256  ls -ltr
+  257  cp emp3.csv emp3_nohead.csv
+  258  vi emp3_nohead.csv
+  259  head -1 emp3.csv
+  260  vi cre_tab.sql
+  261  vi insdata.py
+  262  python3 insdata.py emp3_hohead.csv
+  263  pwd
+  264  ls
+  265  ls -ltr
+  266  python3 insdata.py emp3_nohead.csv
+  267  vi insdata.py
+  268  pwd
+  269  ls -ltr
+  270  head -1 emp3_nohead.csv
+  271  pwd
+  272  ls -ltr
+  273  vi insdata.py
+  274  python3 insdata.py emp3_nohead.csv
+  275  vi insdata.py
+  276  python3 insdata.py emp3_nohead.csv
+  277  vi insdata.py
+  278  python3 insdata.py emp3_nohead.csv
+  279  vi insdata.py
+  280  python3 insdata.py emp3_nohead.csv
+  281  vi insdata.py
+  282  python3 insdata.py emp3_nohead.csv
+  283  vi insdata.py
+  284  python3 insdata.py emp3_nohead.csv
+  285  vi insdata.py
+  286  python3 insdata.py emp3_nohead.csv
+  287  ls -ltr
+  288  vi emp3_nohead.csv
+  289  vi insdata.py
+  290  python3 insdata.py emp3_nohead.csv
+  291  pwd
+  292  ls -ltr
+  293  vi insdata.py
+  294  ls -ltr
+  295  vi readf.py
+  296  python readf.py
+  297  python readf.py emp32.csv
+  298  pwd
+  299  ls-ltr
+  300  ls -ltr
+  301  cat readf.py
+  302  python readf.py emp32.csv
+  303  vi readf2.py
+  304  python readf2.py emp32.csv
+  305  vi readf2.py
+  306  python readf2.py emp32.csv
+  307  vi readf2.py
+  308  python readf2.py emp32.csv
+  309  vi readf2.py
+  310  python readf2.py emp32.csv
+  311  vi readf2.py
+  312  python readf2.py emp32.csv
+  313  vi readf2.py
+  314  python readf2.py emp32.csv
+  315  vi readf2.py
+  316  python readf2.py emp32.csv
+  317  ls -ltr
+  318  cp -p insdata.py insdatapd.py
+  319  vi insdatapd.py
+  320  python3 insdatapd.py emp3_nohead.csv
+  321  vi insdatapd.py
+  322  python3 insdatapd.py emp3_nohead.csv
+  323  vi insdatapd.py
+  324  python3 insdatapd.py emp3_nohead.csv
+  325  vi insdatapd.py
+  326  sudo pip3 install pandas
+  327  python3 insdatapd.py emp3_nohead.csv
+  328  vi insdatapd.py
+  329  python3 insdatapd.py emp3_nohead.csv
+  330  vi insdatapd.py
+  331  python3 insdatapd.py emp3_nohead.csv
+  332  vi insdatapd.py
+  333  python3 insdatapd.py emp3_nohead.csv
+  334  vi insdatapd.py
+  335  python3 insdatapd.py emp3_nohead.csv
+  336  pwd
+  337  ls -ltr
+  338  vi emp3.csv
+  339  ls -ltr
+  340  sort -t"," -k 31,34 emp32.csv
+  341  sort -t"," -k 31,34 emp32.csv | cut -d "," -f31-34
+  342  cat emp32.csv | cut -d "," -f31-34
+  343  sort -t"," -k 31,34 -o emp3sorted.csv emp3.csv
+  344  ls -ltr
+  345  cat emp3.csv | cut -d "," -f31-34 | head 10
+  346  cat emp3.csv | cut -d "," -f31-34 | head -10
+  347  cat emp3sorted.csv | cut -d "," -f31-34 | head -10
+  348  (head -n 1 emp3sorted.csv && tail -n +2| cut -d "," -f31-34 | head -20
+  349  pwd
+  350  ls -ltr
+  351  cd bin
+  352  pwd
+  353  ls
+  354  cd ..
+  355  ./bin//snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-01-o log_level=DEBUG
+  356  ./bin/snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-01-o log_level=DEBUG
+  357  ./bin/snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-01-o 
+  358  ./bin/snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-1 -o log_level=DEBUG -u psvel -d VEL -s tpcds_sf100tcl -w VEL_WH
+  359  ls -ltr
+  360  echo "./bin/snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-1 -o log_level=DEBUG -u psvel -d VEL -s tpcds_sf100tcl -w VEL_WH" > sql.sh
+  361  cat sql.sh
+  362  chmod 700 sql.sh
+  363  pwd
+  364  ls
+  365  pwd
+  366  ls -ltr
+  367  vi snowflake_python.txt
+  368  ls -ltr
+  369  cp insdata.py stgdata.py
+  370  vi etgdata.py
+  371  vi stgdata.py
+  372  vi iterfile.py
+  373  python3 iterfile.py ./empsplit
+  374  ls -ltr
+  375  vi stgdata.py
+  376  python3 stgdata.py ~/empsplit emp
+  377  vi stgdata.py
+  378  python3 stgdata.py ~/empsplit emp
+  379  vi stgdata.py
+  380  python3 stgdata.py ~/empsplit emp
+  381  vi stgdata.py
+  382  python3 stgdata.py ~/empsplit emp
+  383  vi stgdata.py
+  384  ls -ltr
+  385  vi stgdata.py
+  386  pwd
+  387  python3 stgdata.py
+  388  pwd
+  389  python3 stgdata.py /home/ubuntu/empsplit emp_incload
+  390  vi stgdata.py
+  391  python3 stgdata.py /home/ubuntu/empsplit emp_incload
+  392  vi stgdata.py
+  393  python3 stgdata.py /home/ubuntu/empsplit emp_incload
+  394  vi stgdata.py
+  395  python3 stgdata.py /home/ubuntu/empsplit emp_incload
+  396  ./snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-1 -o log_level=DEBUG -u psvel -d SNOWFLAKE_SAMPLE_DATA -s tpcds_sf100tcl -w COMPUTE_WH
+  397  pwd
+  398  ./bin/snowsql -a MCA49464.us-east-1.snowflakecomputing.com --region us-east-1 -o log_level=DEBUG -u psvel -d SNOWFLAKE_SAMPLE_DATA -s tpcds_sf100tcl -w COMPUTE_WH
+  399  curl https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=367116221053-7n0vf5akeru7on6o2fjinrecpdoe99eg.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&state=state
+  400  ./gdrive
+  401  ./gdrive list
+  402  curl --insecure https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=367116221053-7n0vf5akeru7on6o2fjinrecpdoe99eg.apps.googleusercontent.com&redirect_uri=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fdrive&state=state
+  403  ./gdrive list
+  404  ls -ltr
+  405  pwd
+  406  ls -ltr
+  407  pwd
+  408  ls -ltr
+  409  pwd
+  410  ls -ltr
+  411  pwd
+  412  ls -ltr
+  413  ./gdrive list
+  414  cd /etc/xrdp
+  415  ls
+  416  vi xrdp.ini
+  417  echo $DISPLAY
+  418  cd
+  419  pwd
+  420  ls -ltra
+  421  vi.bashrc
+  422  vi .bashrc
+  423  sudo apt-get install xorgxrdp-hwe-18.04
+  424  lsb_release -a
+  425  sudo apt-get install xorgxrdp-hwe-18.04 -y
+  426  sudo apt-get install xserver-xorg-core-hwe-18.04 -y
+  427  sudo apt-get install xorgxrdp-hwe-18.04 -y
+  428  sudo service xrdp stop
+  429  sudo service xrdp start
+  430  sudo useradd vel
+  431  sudo passwd vel
+  432  cd /home
+  433  ls
+  434  pwd
+  435  sudo useradd vel /home/vel
+  436  man usermod
+  437  ps -ef
+  438  who
+  439  pwd
+  440  ls
+  441  cat emp.csv
+  442  ls
+  443  aws
+  444  sudo su -
+  445  ls -ltr
+  446  sftp 10.0.146.197
+  447  pwd
+  448  ls -ltr
+  449  rm gdrive
+  450  ls -ltr
+  451  rm gdrive-linux-x64.1
+  452  tar -ztvf ./backup.tar.zip
+  453  ssh 10.0.149.197
+  454  sftp 13.232.24.160
+  455  sftp 13.232.24.160 -u deuser01
+  456  sftp deuser01@13.232.24.160
+  457  ls -ltr
+  458  rm backup.tar.zip
+  459  ls -ltr
+  460  exit
+  461  pwd
+  462  ls -ltr
+  463  history
+  464  pwd
+  465  ls
+  466  history > cmdhistory.txt
